@@ -12,7 +12,7 @@ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nf
 These are required to build and install most of packages
 
 ```
-sudo apt install -y libssl1.1 libssl-dev libffi-dev
+sudo apt install -y build-essential libssl1.1 libssl-dev libffi-dev
 pyenv install 3.8.2
 ```
 
